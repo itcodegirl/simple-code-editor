@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    .code-editor-body {
+      font-family: "Arial", sans-serif;
+      background-color: #282c34;
+      color: #abb2bf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .code-editor-container {
+      width: 800px;
+      background-color: #1e2127;
+      border-radius: 10px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .code-editor-header {
+      background-color: #2c313a;
+      padding: 10px 15px;
+      border-bottom: 1px solid #343a46;
+    }
+
+    .code-language {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .code-editor-content {
+      padding: 15px;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 16px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      overflow-x: auto;
+    }
+
+    .code-keyword {
+      color: #c678dd;
+    }
+
+    .code-variable {
+      color: #61aeee;
+    }
+
+    .code-string {
+      color: #98c379;
+    }
+
+    .code-function {
+      color: #e5c07b;
+    }
+  </style>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body class="code-editor-body">
+  <div class="code-editor-container">
+    <div class="code-editor-header">
+      <span class="code-language">example.js</span>
+    </div>
+    <pre class="code-editor-content">
+<span class="code-keyword">const</span> <span class="code-variable">message</span> = <span class="code-string">"Hello, World!"</span>;
+<span class="code-function">console.log</span>(<span class="code-variable">message</span>);
+    </pre>
+  </div>
+</body>
+</br>
+
+  <!-- Code for Guide -->
+  
+  <!-- <body class="code-editor-body">
+      <container class="row1">
+    <div class="code-editor-container">
+      <div class="code-editor-header">
+        <span class="code-language">example.js</span>
+      </div>
+      <pre class="code-editor-content">
+    <span class="code-keyword">const</span> <span class="code-variable">message</span> = <span class="code-string">"Hello, World!"</span>;
+    <span class="code-function">console.log</span>(<span class="code-variable">message</span>);
+        </pre>
+    </div>
+  </container>
+  </body> -->
+
